@@ -1,0 +1,10 @@
+{
+    "email": "#email",
+    "password": "#passwd",
+    "submitLogin": "#SubmitLogin",
+
+    "validateLogin": {
+        "nav": "nav a span",
+        "spanCenter": "#center_column"
+    }
+}

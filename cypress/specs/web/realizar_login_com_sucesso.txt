@@ -1,0 +1,10 @@
+    Funcionalidade: Login
+    Objetivo: Garantir que o login para o usuário especificado esteja funcionando
+
+
+
+Cenário: Realizar login com usuário genérico com sucesso
+    Dado que eu tenha acessado a plataforma "Automation Practice"
+    Quando eu inserir as credenciais do usuário
+    E me logar
+    Então eu devo ver meu usuário logado com sucesso
