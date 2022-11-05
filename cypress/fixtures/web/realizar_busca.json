@@ -1,0 +1,18 @@
+{
+    "existingProducts": [
+        "dress",
+        "T-Shirt"
+    ],
+
+    "nonExistingProducts": {
+        "products": [
+            "handbag"
+        ],
+        "paragraph": "No results were found for your search handbag"
+    },
+
+    "loginInvalid": {
+        "email": "usernotexists@testekeeggo.com",
+        "password": "invalidTestPass"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "term": "#cgv",
+    "tbody": "tbody",
+    "continueForAddress": ".standard-checkout.button-medium",
+    "continueForShipping": "button[name='processAddress']",
+    "continueForPayment": "button[name='processCarrier']"
+}

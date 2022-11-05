@@ -1,0 +1,22 @@
+Funcionalidade: Inserção de produto no carrinho
+Objetivo: Garantir que o fluxo de inserção de produto no carrinho esteja funcionando
+
+
+Cenário: Realizar busca para um produto existente
+    Dado que eu tenha acessado o portal "Automation Practice"
+    Quando eu me logar com as credenciais corretas
+    E buscar um produto existente no marketplace
+    E inseri-lo no carrinho
+    Então eu devo ver esse produto inserido no meu carrinho de compra
+
+Cenário: Realizar busca para um produto inexistente
+    Dado que eu tenha acessado o portal "Automation Practice"
+    Quando eu me logar com as credenciais corretas
+    E buscar um produto inexistente no marketplace
+    Então eu devo ver um alerta na tela de produto não encontrado
+
+
+Cenário: Tentar realizar busca para um usuário inexistente na plataforma
+    Dado que eu tenha acessado o portal "Automation Practice"
+    Quando eu tentar me logar com as credenciais incorretas
+    Então eu devo ver um alerta na tela informando que meus dados estão incorretos

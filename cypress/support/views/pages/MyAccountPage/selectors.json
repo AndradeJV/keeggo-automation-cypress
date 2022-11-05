@@ -5,6 +5,7 @@
 
     "validateLogin": {
         "nav": "nav a span",
-        "spanCenter": "#center_column"
+        "spanCenter": "#center_column",
+        "failed": "#center_column > .alert.alert-danger"
     }
 }

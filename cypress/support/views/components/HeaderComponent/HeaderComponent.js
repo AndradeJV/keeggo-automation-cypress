@@ -11,4 +11,10 @@ export default new class HeaderComponent {
     goToBasePageFromLogo(){
         cy.get(selectors.logo).click();
     }
+
+    // Buscar por um produto
+    searchProduct(product){
+        cy.get(selectors.product)
+        .type(`${product}{enter}`);
+    }
 }

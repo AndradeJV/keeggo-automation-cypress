@@ -1,0 +1,17 @@
+Funcionalidade: API de retorno de dados
+Objetivo: Garantir que o fluxo de inserção de produto no carrinho esteja funcionando
+
+
+Cenário: alizar GET com sucesso
+    Dado que eu tenha realizado um GET no endpoint actions
+    Quando eu inserir um id existente
+    E realizar a requisição
+    Então eu devo ver o body da requisição com sucesso
+    E ver o status code 200 e o name correto
+
+Cenário: Realizar um get para um id inexistente
+    Dado que eu tenha realizado um GET no endpoint actions
+    Quando eu inserir um id inexistente
+    E realizar a requisição
+    Então eu devo ver o body da requisição retornando uma mensagem inválida
+    E ver o status code 400

@@ -2,14 +2,17 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
     e2e: {
+        projectId: "meg3r3",
+        viewportWidth: 1440,
+        viewportHeight: 900,
         setupNodeEvents(on, config) {},
 
         baseUrl: 'http://automationpractice.com/index.php',
-        specPattern: 'cypress/tests/**/*.test.js'
+        specPattern: 'cypress/tests/**/*.test.js',
     },
 
     env: {
-        apiTrello: 'https://api.trello.com/1/actions/592f11060f95a3d3d46a987a'
+        apiTrello: 'https://api.trello.com/'
     },
 
 

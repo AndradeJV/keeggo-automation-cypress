@@ -1,4 +1,6 @@
 {
     "buttonSignIn": ".header_user_info > a",
-    "logo": "a[title='My Store']"
+    "logo": "a[title='My Store']",
+    "product": "#search_query_top",
+    "searchButton": "button[name='submit_search']"
 }
