@@ -14,7 +14,4 @@ module.exports = defineConfig({
     env: {
         apiTrello: 'https://api.trello.com/'
     },
-
-
-    video: false
 });
