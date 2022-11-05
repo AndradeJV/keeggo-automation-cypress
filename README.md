@@ -24,7 +24,9 @@ Requisitos:
     - npx cypress run (caso falhe na primeira execução, executar o mesmo comando novamente)
 
 - Execução via docker:
-    
+    Criar uma imagem com sua versão
+    - docker build -t "nome-da-sua-imagem:versao" .
+    - docker run -it "nome-da-sua-imagem:versao"
 
 ### Arquitetura e estrutura de pastas
 - Os testes foram separados em web e api, nas pastas fixtures, tests e specs cada há sua devida separação
